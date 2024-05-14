@@ -9,7 +9,7 @@ The instructions for this mini project are divided into the following subsection
   - Create the Crowdfunding Database
     
 ### Create the Category and Subcategory DataFrames
-  1. Extract and transform the <t>$\it{\small{\color{#DD6565}crowdfunding.xlsx }}$</t> Excel data to create a category DataFrame that has the following columns:
+  1. Extract and transform the [<t>$\it{\small{\color{#DD6565}crowdfunding.xlsx }}$</t>](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/crowdfunding.xlsx) Excel data to create a category DataFrame that has the following columns:
      -  A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
      -  A "category" column that contains only the category titles
      -  The following image shows this category DataFrame:
