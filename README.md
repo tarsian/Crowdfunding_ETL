@@ -49,12 +49,12 @@ The instructions for this mini project are divided into the following subsection
   2. Export the campaign DataFrame as [campaign.csv](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/campaign.csv) and save it to your GitHub repository.
 
 ### Create the Contacts DataFrame
-  1. Choose one of the following two options for extracting and transforming the data from the <t>$\it{\small{\color{#DD6565}contacts.xlsx }}$</t> Excel data:
+  1. Choose one of the following two options for extracting and transforming the data from the [contacts.xlsx](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/contacts.xlsx) Excel data:
      -  <t>$\bf{Option\ 1}$</t>: Use Python dictionary methods.
      -  <t>$\bf{Option\ 2}$</t>: Use regular expressions.
     
   2. If you chose Option 1, complete the following steps:
-     -  Import the <t>$\it{\small{\color{#DD6565}contacts.xlsx }}$</t> file into a DataFrame.
+     -  Import the [contacts.xlsx](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/contacts.xlsx) file into a DataFrame.
      -  Iterate through the DataFrame, converting each row to a dictionary.
      -  Iterate through each dictionary, doing the following:
        -  Extract the dictionary values from the keys by using a Python list comprehension.
@@ -64,7 +64,7 @@ The instructions for this mini project are divided into the following subsection
      -  Clean and export the DataFrame as [contacts.csv](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/contacts.csv) and save it to your GitHub repository.
     
   3. If you chose Option 2, complete the following steps:
-     -  Import the <t>$\it{\small{\color{#DD6565}contacts.xlsx }}$</t> file into a DataFrame.
+     -  Import the [contacts.xlsx](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/contacts.xlsx) file into a DataFrame.
      -  Extract the "contact_id", "name", and "email" columns by using regular expressions.
      -  Create a new DataFrame with the extracted data.
      -  Convert the "contact_id" column to the integer type.
