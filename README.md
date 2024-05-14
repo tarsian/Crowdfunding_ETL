@@ -16,8 +16,8 @@ The instructions for this mini project are divided into the following subsection
      -  
        ![image](https://github.com/tarsian/Crowdfunding_ETL/assets/24801648/565fd9e3-0cee-456b-99f8-9e4dea708d5a)
 
-  2. Export the category DataFrame as <t>$\it{\small{\color{#DD6565}category.csv }}$</t> and save it to your GitHub repository.
-  3. Extract and transform the <t>$\it{\small{\color{#DD6565}crowdfunding.xlsx }}$</t> Excel data to create a subcategory DataFrame that has the following columns:
+  2. Export the category DataFrame as [category.csv](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/category.csv) and save it to your GitHub repository.
+  3. Extract and transform the [crowdfunding.xlsx](https://github.com/tarsian/Crowdfunding_ETL/blob/main/Starter_Files/Resources/crowdfunding.xlsx) Excel data to create a subcategory DataFrame that has the following columns:
      -  A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
      -  A "subcategory" column that contains only the subcategory titles
      -  The following image shows this subcategory DataFrame:
