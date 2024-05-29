@@ -1,3 +1,5 @@
+Create database Crowdfunding_ETL_db;
+	
 drop table if exists contacts;
 drop table if exists category;
 drop table if exists subcategory;
@@ -8,6 +10,7 @@ CREATE TABLE category (
     category varchar (50)  NOT NULL,
 	primary key (category_id)
 );
+
 
 CREATE TABLE subcategory (
     subcategory_id varchar (50)  NOT NULL,
